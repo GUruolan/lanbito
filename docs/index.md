@@ -15,6 +15,10 @@ hero:
       link: https://github.com/GUruolan
 
 features:
+  - icon: 🔥
+    title: GitHub 热门
+    details: AI推送每周精读 GitHub 热门项目，追踪开源社区最新动态。
+    link: /github-trending/2026-05-23
   - icon: 📝
     title: 技术笔记
     details: 记录编程技巧、踩坑经验和解决方案，方便日后查阅。
