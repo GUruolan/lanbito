@@ -31,6 +31,8 @@ export default defineConfig({
           text: 'GitHub 热门项目',
           items: [
             { text: '2026-05-23', link: '/github-trending/2026-05-23' },
+            { text: '2026-05-18', link: '/github-trending/2026-05-18' },
+            { text: '2026-05-11', link: '/github-trending/2026-05-11' },
           ],
         },
       ],
