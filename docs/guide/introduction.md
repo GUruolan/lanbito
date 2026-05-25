@@ -15,7 +15,3 @@
 - **构建工具**：VitePress
 - **托管平台**：GitHub Pages
 - **自动部署**：GitHub Actions
-
-## 内容更新
-
-文档会随着学习和实践持续更新，欢迎 Star 和关注 👋
