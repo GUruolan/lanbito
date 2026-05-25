@@ -12,7 +12,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/getting-started' },
-      { text: 'GitHub 热门', link: '/github-trending/2026-05-23' },
       { text: 'GitHub', link: 'https://github.com/GUruolan' },
     ],
 
