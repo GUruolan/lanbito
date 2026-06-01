@@ -15,6 +15,10 @@ hero:
       link: https://github.com/GUruolan
 
 features:
+  - icon: ⚛️
+    title: React 源码解析
+    details: 从 render / commit、状态、Hooks、调度器到性能优化，按现象和关键链路系统理解 React。
+    link: /react/
   - icon: 🔥
     title: GitHub 热门
     details: AI推送每周精读 GitHub 热门项目，追踪开源社区最新动态。
