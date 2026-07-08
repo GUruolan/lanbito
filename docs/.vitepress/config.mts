@@ -46,9 +46,28 @@ export default defineConfig({
         {
           text: 'GitHub 热门项目',
           items: [
+            { text: '2026-06-20', link: '/github-trending/2026-06-20' },
+            { text: '2026-06-13', link: '/github-trending/2026-06-13' },
+            { text: '2026-06-06', link: '/github-trending/2026-06-06' },
+            { text: '2026-06-01', link: '/github-trending/2026-06-01' },
+            { text: '2026-05-30', link: '/github-trending/2026-05-30' },
             { text: '2026-05-23', link: '/github-trending/2026-05-23' },
             { text: '2026-05-18', link: '/github-trending/2026-05-18' },
             { text: '2026-05-11', link: '/github-trending/2026-05-11' },
+          ],
+        },
+      ],
+      '/java/': [
+        {
+          text: 'Java 全栈学习指南',
+          items: [
+            { text: '📋 总览与学习路线', link: '/java/' },
+            { text: '01 基础语法', link: '/java/01-basics' },
+            { text: '02 面向对象', link: '/java/02-oop' },
+            { text: '03 集合框架与 Stream', link: '/java/03-collections' },
+            { text: '04 并发编程', link: '/java/04-concurrency' },
+            { text: '05 Spring Boot', link: '/java/05-spring-boot' },
+            { text: '06 实战与进阶', link: '/java/06-practice' },
           ],
         },
       ],
