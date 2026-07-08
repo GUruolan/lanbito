@@ -15,10 +15,6 @@ hero:
       link: https://github.com/GUruolan
 
 features:
-  - icon: ⚛️
-    title: React 源码解析
-    details: 从 render / commit、状态、Hooks、调度器到性能优化，按现象和关键链路系统理解 React。
-    link: /react/
   - icon: 🔥
     title: GitHub 热门
     details: AI推送每周精读 GitHub 热门项目，追踪开源社区最新动态。
@@ -27,9 +23,14 @@ features:
     title: Java 全栈学习指南
     details: 面向前端工程师的 Java 全栈学习路线，涵盖基础语法、OOP、集合、并发、Spring Boot 全链路。
     link: /java/
+  - icon: 🌐
+    title: 前端工程
+    details: 整理浏览器架构、渲染链路、性能优化等前端工程基础知识。
+    link: /front-end/
   - icon: 📝
-    title: 技术笔记
-    details: 记录编程技巧、踩坑经验和解决方案，方便日后查阅。
+    title: 刨根问底
+    details: 记录对技术机制、系统原理和复杂问题的深入拆解。
+    link: /deep-dive/
   - icon: 🚀
     title: 项目实践
     details: 分享项目开发中的思路、架构设计与最佳实践。

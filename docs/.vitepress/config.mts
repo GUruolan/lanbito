@@ -5,6 +5,24 @@ export default defineConfig({
   title: 'lanbito',
   description: 'lanbito 的个人文档站点',
   base: '/lanbito/', // GitHub Pages 部署时需要与仓库名一致
+  markdown: {
+    config(md) {
+      const defaultFence = md.renderer.rules.fence
+
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        const lang = token.info.trim().split(/\s+/)[0]
+
+        if (lang === 'mermaid') {
+          return `<pre class="mermaid" v-pre>${md.utils.escapeHtml(token.content)}</pre>`
+        }
+
+        return defaultFence
+          ? defaultFence(tokens, idx, options, env, self)
+          : self.renderToken(tokens, idx, options)
+      }
+    },
+  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,23 +40,6 @@ export default defineConfig({
           items: [
             { text: '快速开始', link: '/guide/getting-started' },
             { text: '介绍', link: '/guide/introduction' },
-          ],
-        },
-      ],
-      '/react/': [
-        {
-          text: 'React 源码解析',
-          items: [
-            { text: '阅读索引', link: '/react/' },
-            { text: '零、render / commit 总览', link: '/react/00-render-commit-overview' },
-            { text: '一、渲染机制', link: '/react/01-rendering' },
-            { text: '二、状态管理', link: '/react/02-state' },
-            { text: '三、Hooks 原理', link: '/react/03-hooks' },
-            { text: '四、事件系统', link: '/react/04-events' },
-            { text: '五、调度器', link: '/react/05-scheduler' },
-            { text: '六、协调器', link: '/react/06-reconciler' },
-            { text: '七、生命周期与错误处理', link: '/react/07-lifecycle' },
-            { text: '八、性能优化', link: '/react/08-performance' },
           ],
         },
       ],
@@ -68,6 +69,24 @@ export default defineConfig({
             { text: '04 并发编程', link: '/java/04-concurrency' },
             { text: '05 Spring Boot', link: '/java/05-spring-boot' },
             { text: '06 实战与进阶', link: '/java/06-practice' },
+          ],
+        },
+      ],
+      '/front-end/': [
+        {
+          text: '前端工程',
+          items: [
+            { text: '阅读索引', link: '/front-end/' },
+            { text: '浏览器架构与前端渲染技术', link: '/front-end/browser-rendering-tech' },
+          ],
+        },
+      ],
+      '/deep-dive/': [
+        {
+          text: '刨根问底',
+          items: [
+            { text: '阅读索引', link: '/deep-dive/' },
+            { text: '共享账号原理分析', link: '/deep-dive/shared-account-principle' },
           ],
         },
       ],
