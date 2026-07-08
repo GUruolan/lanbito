@@ -31,10 +31,4 @@ features:
     title: 刨根问底
     details: 记录对技术机制、系统原理和复杂问题的深入拆解。
     link: /deep-dive/
-  - icon: 🚀
-    title: 项目实践
-    details: 分享项目开发中的思路、架构设计与最佳实践。
-  - icon: 💡
-    title: 学习心得
-    details: 整理各类技术学习的总结与感悟，持续成长。
 ---
