@@ -30,6 +30,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/getting-started' },
+      { text: 'Agent', link: '/agent/' },
       { text: 'GitHub', link: 'https://github.com/GUruolan' },
     ],
 
@@ -78,6 +79,16 @@ export default defineConfig({
           items: [
             { text: '阅读索引', link: '/front-end/' },
             { text: '浏览器架构与前端渲染技术', link: '/front-end/browser-rendering-tech' },
+            { text: 'Promise 与 async/await 手写实现', link: '/front-end/promise-async-await-implementation' },
+          ],
+        },
+      ],
+      '/agent/': [
+        {
+          text: 'Agent',
+          items: [
+            { text: '阅读索引', link: '/agent/' },
+            { text: 'Agent 开发学习路径', link: '/agent/development-roadmap' },
           ],
         },
       ],
@@ -87,6 +98,7 @@ export default defineConfig({
           items: [
             { text: '阅读索引', link: '/deep-dive/' },
             { text: '共享账号原理分析', link: '/deep-dive/shared-account-principle' },
+            { text: 'MachPro 和 React Native 对比', link: '/deep-dive/machpro-vs-react-native' },
           ],
         },
       ],
