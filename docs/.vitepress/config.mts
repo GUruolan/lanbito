@@ -80,6 +80,7 @@ export default defineConfig({
             { text: '阅读索引', link: '/front-end/' },
             { text: '浏览器架构与前端渲染技术', link: '/front-end/browser-rendering-tech' },
             { text: 'Promise 与 async/await 手写实现', link: '/front-end/promise-async-await-implementation' },
+            { text: 'React 执行流程问答总结', link: '/front-end/react-render-flow-discussion' },
           ],
         },
       ],
