@@ -18,7 +18,7 @@ features:
   - icon: 🔥
     title: GitHub 热门
     details: AI推送每周精读 GitHub 热门项目，追踪开源社区最新动态。
-    link: /github-trending/2026-05-23
+    link: /github-trending/2026-09-21
   - icon: ☕
     title: Java 全栈学习指南
     details: 面向前端工程师的 Java 全栈学习路线，涵盖基础语法、OOP、集合、并发、Spring Boot 全链路。
