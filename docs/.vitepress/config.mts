@@ -81,6 +81,7 @@ export default defineConfig({
             { text: '浏览器架构与前端渲染技术', link: '/front-end/browser-rendering-tech' },
             { text: 'Promise 与 async/await 手写实现', link: '/front-end/promise-async-await-implementation' },
             { text: 'React 执行流程问答总结', link: '/front-end/react-render-flow-discussion' },
+            { text: '屏幕分辨率、像素密度与布局单位', link: '/front-end/screen-resolution-and-layout-units' },
           ],
         },
       ],

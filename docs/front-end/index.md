@@ -7,3 +7,4 @@
 - [浏览器架构与前端渲染技术要点](/front-end/browser-rendering-tech)
 - [Promise 与 async/await 手写实现](/front-end/promise-async-await-implementation)
 - [React 执行流程问答总结](/front-end/react-render-flow-discussion)
+- [屏幕分辨率、像素密度与布局单位](/front-end/screen-resolution-and-layout-units)
