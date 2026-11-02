@@ -50,6 +50,7 @@ export default defineConfig({
           items: [
             { text: '2026-11-02', link: '/github-trending/2026-11-02' },
             { text: '2026-10-30', link: '/github-trending/2026-10-30' },
+            { text: '2026-10-23', link: '/github-trending/2026-10-23' },
             { text: '2026-10-16', link: '/github-trending/2026-10-16' },
             { text: '2026-10-09', link: '/github-trending/2026-10-09' },
             { text: '2026-10-02', link: '/github-trending/2026-10-02' },
